@@ -1,0 +1,20 @@
+# program calculates number of stadium seats sold and generates total income from ticket sales
+
+
+def main():
+	classA = int(input("Enter the number of Class A seats sold. ")
+	classB = int(input("Enter the amount of class B seats sold. ")
+	classC = int(input("Enter the amount of class C seats sold. ")
+	class_seating()
+
+#adds total number seats sold and displays the total
+def class_seating(classA, classB, classC):
+	classAprice = classA * 15
+	classBprice = classB * 12
+	classCprice = classC * 9
+	totalPrice = classA + classB + classC
+	print("The total income of stadium seat sales is", totalPrice)
+	
+	
+	
+main()
